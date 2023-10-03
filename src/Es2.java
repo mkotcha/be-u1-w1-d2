@@ -5,21 +5,21 @@ public class Es2 {
         Scanner input = new Scanner(System.in);
         int n;
         System.out.println("inserisci un numero compreso fra 0 e 3");
-        n=input.nextInt();
+        n = input.nextInt();
         switch (n) {
-            case 0 : {
+            case 0: {
                 System.out.println("zero");
                 break;
             }
-            case 1 : {
+            case 1: {
                 System.out.println("uno");
                 break;
             }
-            case 2 : {
+            case 2: {
                 System.out.println("due");
                 break;
             }
-            case 3 : {
+            case 3: {
                 System.out.println("tre");
                 break;
             }
