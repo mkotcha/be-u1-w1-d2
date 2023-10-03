@@ -6,6 +6,9 @@ public class Es4 {
         int n;
         System.out.println("inserisci un numero");
         n = input.nextInt();
-
+        for (int i =n; i>= 0 ; i--) {
+            System.out.println(i);
+        }
+    input.close();
     }
 }
