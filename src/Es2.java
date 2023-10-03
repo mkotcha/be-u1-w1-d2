@@ -31,5 +31,6 @@ public class Es2 {
                 System.out.println("error!");
                 break;
         }
+        input.close();
     }
 }

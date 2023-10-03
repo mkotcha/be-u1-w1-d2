@@ -19,8 +19,7 @@ public class Es3 {
                 System.out.println(str);
             }
         }
-
-
+        input.close();
     }
 
 
