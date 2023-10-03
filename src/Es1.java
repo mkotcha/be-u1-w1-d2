@@ -7,7 +7,7 @@ public class Es1 {
         return n % 2 == 0;
     }
 
-public static boolean leepYear(int year) {
+public static boolean leapYear(int year) {
         if (year % 4==0 ) {
             if (year % 100 ==0) {
                 return year % 400 == 0;
@@ -28,7 +28,7 @@ public static boolean leepYear(int year) {
 
         System.out.println("inserisci un anno");
         year = input.nextInt();
-        System.out.println(year + (leepYear(year)? " è bisestile" : " non è bisestile"));
+        System.out.println(year + (leapYear(year)? " è bisestile" : " non è bisestile"));
         input.close();
     }
 

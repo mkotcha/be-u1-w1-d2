@@ -7,10 +7,6 @@ public class Es2 {
         System.out.println("inserisci un numero compreso fra 0 e 3");
         n=input.nextInt();
         switch (n) {
-//            case 0 , 1 , 2 , 3: {
-//                System.out.println("ok");
-//
-//            }
             case 0 : {
                 System.out.println("zero");
                 break;
